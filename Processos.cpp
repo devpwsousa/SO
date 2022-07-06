@@ -1,5 +1,8 @@
 #include "Processos.h"
 
+
+Processos:: Processos(){}
+
 Processos::Processos(string ID, int tempoCPU, int prioridadeProcessos){
     this->ID = ID;
     this->tempoCPU = tempoCPU;

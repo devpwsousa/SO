@@ -9,6 +9,7 @@ private:
     int prioridadeProcesso;
 
 public:
+    Processos();
     Processos(string,int,int);
     virtual ~Processos();
 
